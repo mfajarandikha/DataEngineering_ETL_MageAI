@@ -46,7 +46,7 @@ The pipeline consists of the following steps:
 ## Results
 - Data is available in BigQuery for querying.
 - Dashboards in Looker Studio provide real-time analytics and insights.
-    ([https://lookerstudio.google.com/embed/reporting/61a1d6dd-3008-4b84-876d-cfd04da7fcf8/page/kKyVE](https://lookerstudio.google.com/s/pGa41KkFdh4))
+    (https://lookerstudio.google.com/s/pGa41KkFdh4)
 
 ---
 
