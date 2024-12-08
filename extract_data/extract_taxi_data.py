@@ -10,7 +10,7 @@ if "test" not in globals():
 
 @data_loader
 def load_data_from_api(*args, **kwargs):
-    url = "https://storage.googleapis.com/yellow-taxi-data-engineering/filtered_output.csv.gz"
+    url = "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-12.csv.gz"
     response = requests.get(url)
     df = pd.read_csv(io.BytesIO(response.content), compression="gzip")
     df = df.dropna()
